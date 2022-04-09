@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login UI</title>
+    <style>
+        *{
+            box-sizing:border-box;
+            padding:0;
+            margin:0;
+        }
+        body{
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background:#536878;
+            color:#D8C11A;
+            line-height:2em;
+            background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Flong-exposure-of-rocket-launch_64287_2048x1356.jpg&f=1&nofb=1) no-repeat;
+            background-size:fill;
+            }
+        #nav-bar{
+            background-color:#05285B;
+            height:60px;
+            font-size: 0px;
+        }
+        #nav-bar button{
+            text-align:center;
+            height:100%;
+            margin:none;
+            width:80px;
+            border:none;
+            border-right: #D8C11A 2px solid;
+            background-color:#05285B;
+            font-size:15px;
+            color:#D8C11A;
+        }
+        #nav-bar button:hover{
+            background-color:#1A5FB4;
+        }
+        #main-box a{
+            text-decoration:none;
+            color:#D8C11A;
+        }
+        #main-box a:hover{
+            text-decoration:none;
+            color:#E6D11F;
+        }
+        input{
+            border:none;
+            background-color:#1A5FB4 ;
+            color:#fff;
+        }
+        #logo {
+            height: 90%;
+            float:right;
+            margin: auto 20px;
+            }
+        #main-box{
+            line-height:3em;
+            margin:auto;
+            text-align:center;
+            /* background-color:#05285B; */
+            border-radius:10px;
+            max-width:500px;
+            padding:20px;
+            margin-top:100px;
+            }
+        #main-box button{
+            height:40px;
+            width:100%;
+            background: #05285B;
+            border: 1px #D8C11A solid;
+            border-radius: 10px;
+            color: #D8C11A;
+        }
+        #main-box button:hover {
+            background: #1A5FB4;
+            cursor: pointer;
+        }
+        #main-box input{
+            width:100%;
+        }
+        input{
+            height:30px;
+            border-radius:5px;
+        }
+        #social-media a{
+            text-decoration:none;
+            background-color: #05285B;
+            padding:5px;
+            border: 1px #D8C11A solid;
+            border-radius:10px
+        }
+        #social-media a:hover{
+            text-decoration:none;
+            background-color: #1A5FB4;
+            padding:5px;
+            border-radius:10px
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <div id="nav-bar">
+        <button>Home</button>
+        <button>About</button>
+        <button>Contact</button>
+        <img src="/Icon.png" id="logo" alt="teste">
+    </div>
+    <div id="main-box">
+        <div>
+            <h1>Sign In</h1>
+        </div>
+        <div>
+            <label for="email"></label>
+            <input type="text" placeholder="Email">
+        </div>
+        <div>
+            <label for="password"></label>
+            <input type="password" placeholder="Password">
+        </div>
+        <div>
+            <button>Sign in</button>
+        </div>
+        <a href="#">Forgot your password?</a>
+        <div>
+            <div>
+                <a href="#">Don't have an account?</a>
+            </div>
+            <br>
+            <div id="social-media">
+                <a href="https://www.facebook.com/nean.segura" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/neansegura/" target="_blank">Instagram</a>
+            </div>
+    </div>
+    <div>
+</body>
+</html>
